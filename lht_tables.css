@@ -91,7 +91,7 @@
       color: rgb(11, 12, 145);
    }
 
-   [data-value*="Sep"] {
+   [data-date*="Sep"] {
       background-color: rgba(232, 214, 148, 0.6);
       box-shadow: 0px 0px 20px gray inset;
    }
