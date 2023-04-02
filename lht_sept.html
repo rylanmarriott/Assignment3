@@ -74,10 +74,10 @@
 
    <table id="calendar">
       <caption>September 2021 Calendar</caption>
-      <tr>
-         <td colspan="5">weekdays</td>
-         <td colspan="2">weekends</td>
-      </tr>
+      <colgroup>
+         <col span="5" class="weekdays">
+         <col span="2" class="weekends">
+      </colgroup>
       <thead>
          <tr>
             <th>Sun</th>
@@ -89,7 +89,6 @@
             <th>Sat</th>
          </tr>
       </thead>
-      
       <tbody>
          <tr>
             <td data-date="Sun, Aug29, 2021">
