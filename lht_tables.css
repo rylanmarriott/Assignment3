@@ -22,7 +22,7 @@
       display: block;
    }
 
-   thead h1 {
+   thead, h1 {
       display: none;
    }
 
